@@ -5,7 +5,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 75vh;
     margin: 0;
 }
 
@@ -40,10 +40,32 @@ p {
 }
 
 a {
-    color: #00aaff;
+    color: #d4d4d4;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+.social-links {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.social-links .link {
+    color: #d4d4d4;
+    font-size: 24px;
+    border: 1px solid #d4d4d4;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.social-links .link:hover {
+    color: #d4d4d4;
 }
